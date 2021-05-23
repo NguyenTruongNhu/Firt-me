@@ -1,0 +1,196 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: flex-start;
+  padding: 30px;
+  background-color: rgb(206, 202, 202);
+}
+
+.frontend {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+  padding: 20px;
+  width: 415.02px;
+  height: 303px;
+  background: #ffffff;
+  border-radius: 12px;
+  gap: 15px;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #4f4f4f;
+}
+
+.frontend__item__react {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  margin-bottom: 18px;
+}
+.name__React {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #4f4f4f;
+}
+
+.frontend__item__react__1 {
+  width: 236.85px;
+  height: 9.6px;
+  margin-top: 5px;
+  background: #c4c4c4;
+  border-radius: 12px;
+}
+.frontend__item__react__2 {
+  width: 155.77px;
+  height: 9.6px;
+  background: rgba(47, 128, 237, 0.7);
+  border-radius: 12px;
+}
+.frontend__item__Javascript {
+  display: flex;
+  flex-direction: row;
+  gap: 51px;
+  margin-bottom: 18px;
+}
+.name__Javascript {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #4f4f4f;
+}
+
+.frontend__item__Javascript__1 {
+  width: 236.85px;
+  height: 9.6px;
+  margin-top: 5px;
+  background: #c4c4c4;
+  border-radius: 12px;
+}
+.frontend__item__Javascript__2 {
+  width: 198.44px;
+  height: 9.6px;
+
+  background: rgba(47, 128, 237, 0.7);
+  border-radius: 12px;
+}
+.frontend__item__CSS {
+  display: flex;
+  flex-direction: row;
+  gap: 89px;
+  margin-bottom: 18px;
+}
+.name__CSS {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #4f4f4f;
+}
+
+.frontend__item__CSS__1 {
+  width: 236.85px;
+  height: 9.6px;
+  margin-top: 5px;
+  background: #c4c4c4;
+  border-radius: 12px;
+}
+.frontend__item__CSS__2 {
+  width: 218.71px;
+  height: 9.6px;
+
+  background: rgba(47, 128, 237, 0.7);
+  border-radius: 12px;
+}
+.frontend__item__Vue {
+  display: flex;
+  flex-direction: row;
+  gap: 94px;
+  margin-bottom: 18px;
+}
+.name__Vue {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #4f4f4f;
+}
+
+.frontend__item__Vue__1 {
+  width: 236.85px;
+  height: 9.6px;
+  margin-top: 5px;
+  background: #c4c4c4;
+  border-radius: 12px;
+}
+.frontend__item__Vue__2 {
+  width: 155.77px;
+  height: 9.6px;
+
+  background: rgba(47, 128, 237, 0.7);
+  border-radius: 12px;
+}
+.frontend__item__Redux {
+  display: flex;
+  flex-direction: row;
+  gap: 76px;
+  margin-bottom: 18px;
+}
+.name__Redux {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #4f4f4f;
+}
+
+.frontend__item__Redux__1 {
+  width: 236.85px;
+  height: 9.6px;
+  margin-top: 5px;
+  background: #c4c4c4;
+  border-radius: 12px;
+}
+.frontend__item__Redux__2 {
+  width: 198.44px;
+  height: 9.6px;
+
+  background: rgba(47, 128, 237, 0.7);
+  border-radius: 12px;
+}
+.frontend__item__ReactNative {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-bottom: 18px;
+}
+.name__ReactNative {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #4f4f4f;
+}
+
+.frontend__item__ReactNative__1 {
+  width: 236.85px;
+  height: 9.6px;
+  margin-top: 5px;
+  background: #c4c4c4;
+  border-radius: 12px;
+}
+.frontend__item__ReactNative__2 {
+  width: 218.71px;
+  height: 9.6px;
+  background: rgba(47, 128, 237, 0.7);
+  border-radius: 12px;
+}

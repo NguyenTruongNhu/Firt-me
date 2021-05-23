@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: flex-start;
+  padding: 30px;
+  background-color: rgb(206, 202, 202);
+}
+.mygallery {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  width: 859px;
+  margin-bottom: 25px;
+  height: 320px;
+  background: #ffffff;
+  border-radius: 12px;
+  gap: 20px;
+}
+.mygallery__item {
+  display: flex;
+  gap: 30px;
+}
+.mygallery__item__left img {
+  width: 322px;
+  height: 274px;
+  border-radius: 12px;
+}
+
+.mygallery__item__right p:nth-child(1) {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 25px;
+  color: #4f4f4f;
+}
+
+.mygallery__item__right p:nth-child(2) {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 25px;
+  color: #333333;
+}
+.mygallery__item__right p:nth-child(3) {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 25px;
+  color: #828282;
+}
+.blue,
+.white {
+  width: 100%;
+  height: 100%;
+  margin: 10px auto;
+
+  background: #5c94e1;
+
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #ffffff;
+}
+.blue :hover {
+  cursor: pointer;
+}
+.white :hover {
+  cursor: pointer;
+}

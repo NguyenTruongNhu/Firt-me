@@ -1,0 +1,124 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: flex-start;
+  padding: 30px;
+  background-color: rgb(206, 202, 202);
+}
+
+.experience {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 400px;
+  gap: 30px;
+  margin-bottom: 45px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+.experience__item {
+  display: flex;
+  gap: 12px;
+}
+.experience__item__left {
+  flex: 2;
+}
+.experience__item__left img {
+  width: 100%;
+}
+.experience__item__right {
+  flex: 4;
+}
+.experience__item__right p:nth-child(1) {
+  font-size: 14px;
+  line-height: 17px;
+  color: #828282;
+  margin-bottom: 10px;
+}
+.experience__item__right p:nth-child(2) {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 10px;
+  color: #333333;
+}
+.experience__item__right p:nth-child(3) {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #828282;
+}
+.experience__item {
+  display: flex;
+  gap: 12px;
+}
+.experience__item__left {
+  flex: 2;
+}
+.experience__item__left img {
+  width: 100%;
+}
+.experience__item__right {
+  flex: 4;
+}
+.experience__item__right p:nth-child(1) {
+  font-size: 14px;
+  line-height: 17px;
+  color: #828282;
+  margin-bottom: 10px;
+}
+.experience__item__right p:nth-child(2) {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 10px;
+  color: #333333;
+}
+.experience__item__right p:nth-child(3) {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #828282;
+}
+.experience__item {
+  display: flex;
+  gap: 12px;
+}
+.experience__item__left {
+  flex: 2;
+}
+.experience__item__left img {
+  width: 100%;
+}
+.experience__item__right {
+  flex: 4;
+}
+.experience__item__right p:nth-child(1) {
+  font-size: 14px;
+  line-height: 17px;
+  color: #828282;
+  margin-bottom: 10px;
+}
+.experience__item__right p:nth-child(2) {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 10px;
+  color: #333333;
+}
+.experience__item__right p:nth-child(3) {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #828282;
+}

@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: flex-start;
+  padding: 30px;
+  background-color: rgb(206, 202, 202);
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  width: 413px;
+  height: 836px;
+  left: 65px;
+  top: 1542px;
+  background: #ffffff;
+  border-radius: 12px;
+  gap: 30px;
+}
+.hobbie__item img {
+  width: 369px;
+  height: 139px;
+
+  margin-bottom: 10px;
+  border-radius: 12px;
+}
+.hobbie__item p:nth-child(2) {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 10px;
+
+  color: #333333;
+}
+.hobbie__item p:nth-child(3) {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #828282;
+}
+.cooking__item img {
+  width: 369px;
+  height: 139px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+}
+.cooking__item p:nth-child(2) {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 10px;
+  color: #333333;
+}
+.cooking__item p:nth-child(3) {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #828282;
+}
+.biking__item img {
+  width: 373px;
+  height: 139px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+}
+.biking__item p:nth-child(2) {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 10px;
+  color: #333333;
+}
+.biking__item p:nth-child(3) {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #828282;
+}

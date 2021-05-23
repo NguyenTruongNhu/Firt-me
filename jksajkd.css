@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: flex-start;
+  padding: 30px;
+  background-color: rgb(223, 223, 223);
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.column {
+  display: flex;
+  gap: 25px;
+}
+.row {
+  display: flex;
+  gap: 25px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 16px 16px 20px #0000001d;
+  margin-bottom: 45px;
+}
+
+.card__ava {
+  overflow: hidden;
+  border-radius: 10px;
+  width: 360px;
+  height: 360px;
+}
+
+.card__ava img {
+  height: 100%;
+  transform: translateX(-15%);
+}
+
+.card__info__fullname {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #4f4f4f;
+}
+
+.card__info__job {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #828282;
+}
+
+.card__contact {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card__contact__item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  font-size: 18px;
+  line-height: 22px;
+  color: #4f4f4f;
+}
+
+.card__contact__item img {
+  width: 20px;
+}
+
+.card__bio {
+  font-size: 18px;
+  line-height: 22px;
+  color: #828282;
+}

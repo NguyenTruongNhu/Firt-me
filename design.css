@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: flex-start;
+  padding: 30px;
+  background-color: rgb(206, 202, 202);
+}
+
+.Design {
+  display: flex;
+  flex-direction: column;
+
+  padding: 20px;
+  width: 415.02px;
+  height: 157px;
+  background: #ffffff;
+  border-radius: 12px;
+  gap: 15px;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #4f4f4f;
+}
+
+.Design__item__Figma {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  margin-bottom: 18px;
+}
+.name__Figma {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #4f4f4f;
+}
+
+.Design__item__Figma__1 {
+  width: 236.85px;
+  height: 9.6px;
+  margin-top: 5px;
+  background: #c4c4c4;
+  border-radius: 12px;
+}
+.Design__item__Figma__2 {
+  width: 155.77px;
+  height: 9.6px;
+
+  background: rgba(47, 128, 237, 0.7);
+  border-radius: 12px;
+}
+.Design__item__Photoshop {
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
+  margin-bottom: 18px;
+}
+.name__Photoshop {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #4f4f4f;
+}
+
+.Design__item__Photoshop__1 {
+  width: 236.85px;
+  height: 9.6px;
+  margin-top: 5px;
+  background: #c4c4c4;
+  border-radius: 12px;
+}
+.Design__item__Photoshop__2 {
+  width: 198.44px;
+  height: 9.6px;
+
+  background: rgba(47, 128, 237, 0.7);
+  border-radius: 12px;
+}

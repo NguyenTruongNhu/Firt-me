@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: flex-start;
+  padding: 30px;
+  background-color: rgb(206, 202, 202);
+}
+
+.skill__item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+  padding: 20px;
+  width: 415.02px;
+  height: 303px;
+  background: #ffffff;
+  border-radius: 12px;
+  gap: 15px;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #4f4f4f;
+}
+.skill__item__left {
+}
+
+.skill__item__right__progress-bar:nth-child(1)
+  .skill__item__right__progress-bar__process {
+}

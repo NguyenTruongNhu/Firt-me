@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: flex-start;
+  padding: 30px;
+  background-color: rgb(206, 202, 202);
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+
+  padding: 20px;
+  width: 862px;
+
+  margin-bottom: 25px;
+  background: #ffffff;
+  border-radius: 12px;
+
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #4f4f4f;
+}

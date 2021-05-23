@@ -1,0 +1,48 @@
+
+
+.buti,.mani,.xesi,.ray{
+    color: chartreuse;
+
+}
+
+
+.money{
+    width: 10px;
+    height: 10px;
+    background-color: chartreuse;
+    padding: 5px;
+    display: inline-block;
+    position: relative;
+    left: 115px;
+    bottom: -10px;
+    
+    
+
+}
+.bun{
+    display: inline-block;
+    margin:auto 130px -5px;
+    
+}
+.cat{
+    width: 10px;
+    height: 10px;
+    background-color: mediumslateblue;
+    padding: 5px;
+    
+    position: relative;
+    left: 115px;
+    bottom: -20px;
+    
+    
+}
+.test{
+    width: 10px;
+    height: 10px;
+    background-color: yellow;
+    padding: 5px;
+    
+    position: relative;
+    left: 115px;
+    bottom: -30px;
+}
